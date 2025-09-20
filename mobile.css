@@ -31,6 +31,12 @@ body {
 .footer {
     background-color: #D9D9D9;
 }
+#PC {
+    display: none;
+}
+#Mobile {
+    display: flex;
+}
 div.container {
     --tb: 40px;
     padding-top: var(--tb);
