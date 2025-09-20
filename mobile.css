@@ -50,8 +50,7 @@ div.content {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-between;
-    row-gap: 20px;
-    column-gap: 00px;
+    row-gap: 30px;
 }
 div.small-content {
     grid-template-columns: repeat(3, auto);
