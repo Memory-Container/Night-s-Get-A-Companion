@@ -1,3 +1,4 @@
+@media only screen and (max-width: 800px) {
 html {
     color: #333333;
     font-size: 20px;
@@ -8,6 +9,15 @@ html {
 body {
     margin: 0;
 }
+#Mobile-Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 546px;
+}
+#Main-Header {
+    display: none;
+}
 .button {
     background-color: #E2E2E2;
 }
@@ -15,34 +25,34 @@ body {
     background-color: #F1F1F1;
 }
 .header {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-#Mobile-Header {
-    display: none;
-}
-#Main_Header {
-    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .footer {
     background-color: #D9D9D9;
 }
-.Mobile {
-    display: none;
-}
 div.container {
-    --tb: 80px;
+    --tb: 40px;
     padding-top: var(--tb);
     padding-bottom: var(--tb);
 }
 div.content {
     display: flex;
-    width: 95%;
-    max-width: 1200px;
+    width: 546px;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 25px;
-    justify-content: space-between;
+    justify-content:space-between;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+div.small-content {
+    grid-template-columns: repeat(3, auto);
+}
+div.space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 75%;
 }
 div {
     display: flex;
@@ -54,35 +64,37 @@ div.round {
     border-radius: 8px;
 }
 #Logo {
-    width: 200px;
-    height: 60px;
-}
-#Menu {
-    height: 34px;
-    width: 820px;
-}
-#Button {
-    width: 120px;
+    width: 140px;
     height: 42px;
 }
+#Menu {
+    height: 36px;
+    width: 66px;
+    font-size: 16px;
+}
+#Button {
+    width: 78px;
+    height: 36px;
+    font-size: 16px;
+}
 #Content {
-    width: 585px;
+    width: 546px;
     height: 267px;
 }
 #Image {
-    width: 585px;
+    width: 546px;
     height: 491px;
 }
 .item-thin {
-    width: 216px;
+    width: 258px;
     height: 300px;
 }
 .item-normal {
-    width: 277.5px;
+    width: 258px;
     height: 300px;
 }
 .item-big {
-    width: 380px;
+    width: 546px;
     height: 420px;
 }
 .Title {
@@ -90,4 +102,5 @@ div.round {
     width: 546px;
     height: 60px;
     margin-bottom: 20px;
+}
 }
