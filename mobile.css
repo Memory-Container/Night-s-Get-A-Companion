@@ -100,6 +100,7 @@ div.round {
     height: 300px;
 }
 .item-big {
+    min-width: 95%;
     width: 546px;
     height: 420px;
 }
