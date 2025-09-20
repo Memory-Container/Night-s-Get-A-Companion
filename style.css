@@ -30,6 +30,9 @@ body {
 #PC {
     display: flex;
 }
+#Tablet {
+    display: none;
+}
 #Mobile {
     display: none;
 }

@@ -22,7 +22,13 @@ body {
 .footer {
     background-color: #D9D9D9;
 }
-.Mobile {
+#Tablet {
+    display: flex;
+}
+#Mobile {
+    display: none;
+}
+#PC {
     display: flex;
 }
 div.container {
