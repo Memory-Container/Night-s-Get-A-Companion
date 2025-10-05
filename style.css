@@ -19,6 +19,7 @@ a {
     --color-accent-dark:        #472D00;  
     --color-title:              #FF822E;
     --background:               #FCECDD; 
+    -moz-background-clip: ;
 
     --font-primary:       "Be Vietnam Pro", sans-serif;
     --font-secondary:     "Lora", serif;
@@ -46,6 +47,13 @@ a {
 }
 .header {
     padding: 9px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--background);
+    box-shadow: 0 3px 5px gray;
 }
 .header .inner-wraper {
     display: flex;
@@ -152,7 +160,9 @@ a {
     border: 3px solid var(--color-secondary);
     background-color: var(--color-accent-light);
 }
-
+.hero-button a {
+    color: white;
+}
 
 .section-2 {
     padding: 60px 0;
