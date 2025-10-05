@@ -68,6 +68,7 @@
     }
     .section-3 .item-big {
         width: calc((100% - var(--gap) * (1)) / 2);
+        height: 350px;
     }
     
     .section-4 {
